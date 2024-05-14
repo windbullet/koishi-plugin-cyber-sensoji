@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-cyber-sensoji",
   "description": "浅草寺抽签插件",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,19 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/windbullet/koishi-plugin-cyber-sensoji",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-cyber-sensoji.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "koishi-plugin-puppeteer": "^3.8.4"
+  },
   "peerDependencies": {
     "koishi": "^4.17.5"
   }
